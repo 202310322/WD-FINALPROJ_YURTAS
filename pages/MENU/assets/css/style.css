@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#coffeeCarousel {
+    max-width: 500px; /* Set carousel width */
+    margin: 0 auto; /* Center align the carousel */
+}
+.carousel-item img {
+    max-height: 300px; /* Limit height of carousel images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.carousel-item active {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background for captions */
+    padding: 10px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+}
