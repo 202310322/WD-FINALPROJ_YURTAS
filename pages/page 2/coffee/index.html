@@ -6,7 +6,32 @@
     <title>Tim Hortons - Coffee Carousel</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Styling for the carousel */
+        #coffeeCarousel {
+            max-width: 500px; /* Set carousel width */
+            margin: 0 auto; /* Center align the carousel */
+        }
+        .carousel-item img {
+            max-height: 300px; /* Limit height of images */
+            object-fit: cover; /* Maintain aspect ratio */
+            width: 100%; /* Responsive width */
+        }
+        .carousel-caption-below {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .carousel-caption-below h5 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .carousel-caption-below p {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <!-- Coffee Carousel -->
@@ -19,21 +44,24 @@
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <img src="assets/imgs/double double.jpg" class="d-block w-50" alt="Original Blend Coffee">
+                <img src="/pages/page 2/assets/imgs/double double.jpg"  class="d-inline-block align-center w-50" alt="Double Double">
                 <div class="carousel-caption-below">
-                    <h5>Original Blend</h5>
+                    <h5>Double Double</h5>
+                    <p>Our signature coffee blend, smooth and perfectly balanced.</p>
                 </div>
             </div>
+            
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <img src="assets/images/dark-roast.jpg" class="d-block w-100" alt="Dark Roast Coffee">
+                <img src="pages\page 2\coffee\assets\img\dark roast.jpg" class="d-block w-100" alt="Dark Roast Coffee">
                 <div class="carousel-caption-below">
                     <h5>Dark Roast</h5>
+                    <p>A rich and bold coffee experience, perfect for coffee lovers.</p>
                 </div>
             </div>
             <!-- Slide 3 -->
             <div class="carousel-item">
-                <img src="assets/images/french-vanilla.jpg" class="d-block w-100" alt="French Vanilla Coffee">
+                <img src="pages\page 2\coffee\assets\img\french vanilla.jpg" class="d-block w-100" alt="French Vanilla Coffee">
                 <div class="carousel-caption-below">
                     <h5>French Vanilla</h5>
                     <p>A delightful blend of creamy vanilla and rich coffee.</p>

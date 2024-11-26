@@ -1,0 +1,4 @@
+.carousel-item active {
+    inline-size: auto;
+    align-items: center;
+}
