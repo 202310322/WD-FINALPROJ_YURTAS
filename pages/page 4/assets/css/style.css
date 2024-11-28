@@ -1,9 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
     padding: 15px;
     border-radius: 5px;
+}
+.containerlast{
+    color: #C8102E;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.con {
+    color: black;
+    max-width: 800px; 
+    margin: 3cqmax; 
+    text-align: left; 
+    padding-left: 1px;
 }
