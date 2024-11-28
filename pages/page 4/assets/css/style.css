@@ -1,6 +1,42 @@
 body {
-    font-family: "Poppins", sans-serif;
-}
+        font-family: "Poppins", sans-serif;
+        display: flex;
+          flex-direction: column;
+          min-height: 100vh; /* Full viewport height */
+          margin: 0; /* Remove default body margin */
+          font-family: "Poppins", sans-serif;
+      }
+          .about-section {
+          background-color: #f9f9f9;
+          padding: 40px 20px;
+          border-radius: 8px;
+                  }
+          .history-section {
+          padding: 40px 20px;
+          }
+          .section-title {
+          color: #C8102E;
+          font-weight: bold;
+          }
+          .about-image {
+          max-width: 100%;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              }
+      .container {
+          flex: 1; /* Pushes the footer to the bottom */
+      }
+      footer {
+          background-color: #C8102E; /* Tim Hortons Red */
+          color: white;
+          padding: 50px 0; /* Adjust padding as needed */
+      }
+      .footer-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px; /* Add spacing between elements */
+      }
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
